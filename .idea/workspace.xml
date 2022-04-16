@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb7c6802-f333-4e7c-b30e-5df83e08932a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bci/CSP.py" beforeDir="false" afterPath="$PROJECT_DIR$/bci/CSP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bci/DeepConvNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bci/DeepConvNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bci/EA-CSP.py" beforeDir="false" afterPath="$PROJECT_DIR$/bci/EA-CSP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bci/EEGNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/bci/EEGNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bci/MDRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/bci/MDRM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bci/RA-MDRM.py" beforeDir="false" afterPath="$PROJECT_DIR$/bci/RA-MDRM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SFDA-A.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SFDA-B.py" beforeDir="false" afterPath="$PROJECT_DIR$/bsfda/ASFA-aug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SFDA-C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SFDA-Raw.py" beforeDir="false" afterPath="$PROJECT_DIR$/bsfda/ASFA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SHOT-B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SHOT-IM-B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SHOT-IM-Raw.py" beforeDir="false" afterPath="$PROJECT_DIR$/bsfda/SHOT-IM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/SHOT-Raw.py" beforeDir="false" afterPath="$PROJECT_DIR$/bsfda/SHOT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/Source-B.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsfda/Source-Raw.py" beforeDir="false" afterPath="$PROJECT_DIR$/bsfda/Source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/DataIterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/DataIterator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/DomainDiscriminator.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/DomainDiscriminator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/augment.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/augment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/cdan.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/cdan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dan.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dann.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dann.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/dataLoad.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/dataLoad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/deepconvnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/deepconvnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/eegnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/eegnet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/grl.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/grl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jan.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/jan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/kernel.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/kernel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/loss.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/loss.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfda/BAIT.py" beforeDir="false" afterPath="$PROJECT_DIR$/sfda/BAIT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfda/SFDA-D.py" beforeDir="false" afterPath="$PROJECT_DIR$/sfda/ASFA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfda/SFDA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfda/SHOT-IM.py" beforeDir="false" afterPath="$PROJECT_DIR$/sfda/SHOT-IM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfda/SHOT.py" beforeDir="false" afterPath="$PROJECT_DIR$/sfda/SHOT.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sfda/Source.py" beforeDir="false" afterPath="$PROJECT_DIR$/sfda/Source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uda/CDAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda/CDAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uda/DAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda/DAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uda/DANN.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda/DANN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uda/DJDAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda/DJDAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uda/JAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda/JAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uda/MCC.py" beforeDir="false" afterPath="$PROJECT_DIR$/uda/MCC.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectId" id="27rz9XLXjWV3ijmR55NdTsUn2fb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bsfda/SFDA-A.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/bsfda/SFDA-A.py" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb7c6802-f333-4e7c-b30e-5df83e08932a" name="Changes" comment="" />
+      <created>1650092842335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650092842335</updated>
+      <workItem from="1650092843867" duration="5368000" />
+      <workItem from="1650098273430" duration="1665000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
