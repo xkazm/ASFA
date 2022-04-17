@@ -11,7 +11,7 @@
 * bci: common approaches in BCIs:
   * Common spatial pattern ([CSP](https://ieeexplore.ieee.org/document/895946))
   * Euclidean alignment ([EA](https://ieeexplore.ieee.org/document/8701679))
-  * Mininum distance to mean ([MDRM](https://ieeexplore.ieee.org/document/6046114))
+  * Minimum distance to mean ([MDRM](https://ieeexplore.ieee.org/document/6046114))
   * Riemannian alignment ([RA](https://ieeexplore.ieee.org/document/8013808))
   * [EEGNet](https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/meta)
   * [DeepConvNet](https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.23730)
@@ -38,7 +38,7 @@
   * Domain-adversarial neural network ([DANN](https://www.jmlr.org/papers/volume17/15-239/15-239.pdf))
   * Dynamic joint domain adaptation network ([DJDAN](https://ieeexplore.ieee.org/abstract/document/9354668/))
   * Joint adaptation netowrk ([JAN](http://proceedings.mlr.press/v70/long17a.html))
-  * Mininum class confusion ([MCC](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_28))
+  * Minimum class confusion ([MCC](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_28))
 
 ## Run
 When you have prepared the datasets, you can directly run the corresponding .py file.
