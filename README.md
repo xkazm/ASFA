@@ -11,14 +11,14 @@
 * bci: common approaches in BCIs:
   * Common spatial pattern ([CSP](https://ieeexplore.ieee.org/document/895946))
   * Euclidean alignment ([EA](https://ieeexplore.ieee.org/document/8701679))
-  * Mininum distance to mean ([MDRM](https://ieeexplore.ieee.org/document/6046114)):
-  * RA:
-  * EEGNet:
-  * DeepConvNet:
+  * Mininum distance to mean ([MDRM](https://ieeexplore.ieee.org/document/6046114))
+  * Riemannian alignment ([RA](https://ieeexplore.ieee.org/document/8013808))
+  * [EEGNet](https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/meta)
+  * [DeepConvNet](https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.23730)
 * bsfda: black-box soure model for source-free domain adaptation:
   * Source: source only
-  * SHOT-IM, SHOT: 
-  * ASFA, ASFA-aug: ASFA-aug add data augmentation when performing knowledge distillation
+  * Source HypOthesis Transfer ([SHOT-IM, SHOT](https://proceedings.mlr.press/v119/liang20a.html))
+  * ASFA, ASFA-aug: our proposed approach, ASFA-aug add data augmentation when performing knowledge distillation
 * libs: public function used in this project:
   * augment: augment functions
   * cdan, dan, dann, grl, jan, kernel: files for domain adversarial training, code from https://github.com/thuml/Transfer-Learning-Library
@@ -29,16 +29,16 @@
   * utils: common used functions
 * sfda: approaches for source-free domain adaptation:
   * Source: source only
-  * BAIT
-  * SHOT-IM, SHOT:
-  * ASFA: our proposed approaches
+  * [BAIT](https://arxiv.org/abs/2010.12427)
+  * Source HypOthesis Transfer ([SHOT-IM, SHOT](https://proceedings.mlr.press/v119/liang20a.html))
+  * ASFA: our proposed approach
 * uda: approaches for unsupervised domain adaptation:
-  * CDAN: CDAN/CDAN-E,
-  * DAN:
-  * DANN:
-  * DJDAN:
-  * JAN:
-  * MCC:
+  * Conditional domain adversarial network ([CDAN/CDAN-E](https://proceedings.neurips.cc/paper/2018/hash/ab88b15733f543179858600245108dd8-Abstract.html))
+  * Domain adaptation network ([DAN](https://ieeexplore.ieee.org/abstract/document/8454781/))
+  * Domain-adversarial neural network ([DANN](https://www.jmlr.org/papers/volume17/15-239/15-239.pdf))
+  * Dynamic joint domain adaptation network ([DJDAN](https://ieeexplore.ieee.org/abstract/document/9354668/))
+  * Joint adaptation netowrk ([JAN](http://proceedings.mlr.press/v70/long17a.html))
+  * Mininum class confusion ([MCC](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_28))
 
 ## Run
 When you have prepared the datasets, you can directly run the corresponding .py file.
