@@ -1,13 +1,18 @@
 # Code for ASFA
 
-## Prerequisites:
+## Prerequisites
 * python == 3.8.5
-* pytorch == 
+* torch == 
+* numpy ==
+* scipy == 
+* mne == 
+* scikit-learn == 
+* pyriemann == 
 
-## Dataset:
+## Dataset
 * Please manually download the datasets BNCI201401, BNCI201402, BNCI201404 by [MOABB](https://github.com/NeuroTechX/moabb).
 
-## Framework:
+## Framework
 * bci: common approaches in BCIs:
   * Common spatial pattern ([CSP](https://ieeexplore.ieee.org/document/895946))
   * Euclidean alignment ([EA](https://ieeexplore.ieee.org/document/8701679))
