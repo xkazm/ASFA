@@ -9,9 +9,9 @@
 
 ## Framework:
 * bci: common approaches in BCIs:
-  * CSP: 
-  * EA:
-  * MDRM:
+  * Common spatial pattern ([CSP](https://ieeexplore.ieee.org/document/895946))
+  * Euclidean alignment ([EA](https://ieeexplore.ieee.org/document/8701679))
+  * Mininum distance to mean ([MDRM](https://ieeexplore.ieee.org/document/6046114)):
   * RA:
   * EEGNet:
   * DeepConvNet:
