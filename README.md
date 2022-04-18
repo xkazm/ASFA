@@ -2,12 +2,12 @@
 
 ## Prerequisites
 * python == 3.8.5
-* torch == 
-* numpy ==
-* scipy == 
-* mne == 
-* scikit-learn == 
-* pyriemann == 
+* torch == 1.8.1
+* numpy == 1.20.1
+* scipy == 1.6.1
+* mne == 0.22.0
+* scikit-learn == 0.23.2
+* pyriemann == 0.2.6
 
 ## Dataset
 * Please manually download the datasets BNCI201401, BNCI201402, BNCI201404 by [MOABB](https://github.com/NeuroTechX/moabb).
