@@ -10,7 +10,7 @@
 * pyriemann == 0.2.6
 
 ## Dataset
-* Please manually download the datasets BNCI201401, BNCI201402, BNCI201404 by [MOABB](https://github.com/NeuroTechX/moabb).
+* Please manually download the datasets BNCI2014001, BNCI2014002, BNCI2014004 by [MOABB](https://github.com/NeuroTechX/moabb).
 
 ## Framework
 * bci: common approaches in BCIs:
