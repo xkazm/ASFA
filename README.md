@@ -26,7 +26,7 @@
   * ASFA, ASFA-aug: our proposed approach, ASFA-aug add data augmentation when performing knowledge distillation
 * libs: public function used in this project:
   * augment: augment functions
-  * cdan, dan, dann, grl, jan, kernel: files for domain adversarial training, code from https://github.com/thuml/Transfer-Learning-Library
+  * cdan, dan, dann, grl, jan, kernel: files for existing unsupervised domain adaptation approaches, code from https://github.com/thuml/Transfer-Learning-Library
   * dataLoad: load and compute tangent space features for EEG data
   * DataIterator: data iterator when training deep networks
   * network, eegnet, deepconvent, DomainDiscriminator: model definition
