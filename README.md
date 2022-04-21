@@ -20,7 +20,7 @@
   * Riemannian alignment ([RA](https://ieeexplore.ieee.org/document/8013808))
   * [EEGNet](https://iopscience.iop.org/article/10.1088/1741-2552/aace8c/meta)
   * [DeepConvNet](https://onlinelibrary.wiley.com/doi/abs/10.1002/hbm.23730)
-* bsfda: black-box soure model for source-free domain adaptation:
+* bsfda: black-box source model for source-free domain adaptation:
   * Source: source only
   * Source HypOthesis Transfer ([SHOT-IM, SHOT](https://proceedings.mlr.press/v119/liang20a.html))
   * ASFA, ASFA-aug: our proposed approach, ASFA-aug add data augmentation when performing knowledge distillation
