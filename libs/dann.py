@@ -47,8 +47,8 @@ class DomainAdversarialLoss(nn.Module):
         d_label_s = torch.ones((fs.size(0), 1)).to(fs.device)
         d_label_t = torch.zeros((ft.size(0), 1)).to(ft.device)
 
-        ls = nn.Softmax(dim=1)(ds).argmax(dim=1)
-        lt = nn.Softmax(dim=1)(dt).argmax(dim=1)
+        ls = (ds > 0.5).long()
+        lt = (dt > 0.5).long()
 
         d_error_s = len(torch.nonzero(ls.ne(0)).view(-1))
         d_error_t = len(torch.nonzero(lt.ne(1)).view(-1))
