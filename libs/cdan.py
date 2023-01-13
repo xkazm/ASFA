@@ -128,7 +128,7 @@ class ConditionalDomainAdversarialLoss(nn.Module):
         da = torch.zeros(len(y_set))
         k = 0
         y = torch.cat((ys, yt), dim=0).view(-1)
-        l = nn.Softmax(dim=1)(d).argmax(dim=1)
+        l = (d > 0.5).long()
         for label in y_set:
             index = torch.nonzero(y.eq(label)).view(-1)
             dak = torch.sum(torch.eq(l[index], d_label[index]))
