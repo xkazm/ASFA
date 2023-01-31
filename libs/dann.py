@@ -36,27 +36,3 @@ class DomainAdversarialLoss(nn.Module):
         d_label_t = torch.zeros((ft.size(0), 1)).to(ft.device)
 
         return 0.5 * (self.bce(ds, d_label_s) + self.bce(dt, d_label_t))
-
-    def w_forward(self,
-                  fs: torch.Tensor,
-                  ft: torch.Tensor,
-                  iter_num: int) -> Tuple[torch.Tensor, float]:
-        f = self.grl(torch.cat((fs, ft), dim=0), iter_num)
-        d = self.domain_discriminator(f)
-        ds, dt = d.chunk(2, dim=0)
-        d_label_s = torch.ones((fs.size(0), 1)).to(fs.device)
-        d_label_t = torch.zeros((ft.size(0), 1)).to(ft.device)
-
-        ls = (ds > 0.5).long()
-        lt = (dt > 0.5).long()
-
-        d_error_s = len(torch.nonzero(ls.ne(0)).view(-1))
-        d_error_t = len(torch.nonzero(lt.ne(1)).view(-1))
-
-        # print("d_error_t", d_error_t)
-
-        da = (d_error_s + d_error_t) / (fs.size(0) + ft.size(0))
-        da = 2 * (1 - 2 * da)
-        # print('dam', da)
-
-        return 0.5 * (self.bce(ds, d_label_s) + self.bce(dt, d_label_t)), da
