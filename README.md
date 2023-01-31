@@ -41,7 +41,6 @@
   * Conditional domain adversarial network ([CDAN/CDAN-E](https://proceedings.neurips.cc/paper/2018/hash/ab88b15733f543179858600245108dd8-Abstract.html))
   * Domain adaptation network ([DAN](https://ieeexplore.ieee.org/abstract/document/8454781/))
   * Domain-adversarial neural network ([DANN](https://www.jmlr.org/papers/volume17/15-239/15-239.pdf))
-  * Dynamic joint domain adaptation network ([DJDAN](https://ieeexplore.ieee.org/abstract/document/9354668/))
   * Joint adaptation netowrk ([JAN](http://proceedings.mlr.press/v70/long17a.html))
   * Minimum class confusion ([MCC](https://link.springer.com/chapter/10.1007/978-3-030-58589-1_28))
 
