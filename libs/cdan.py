@@ -102,38 +102,3 @@ class ConditionalDomainAdversarialLoss(nn.Module):
         batch_size = f.size(0)
         weight = weight / torch.sum(weight) * batch_size
         return self.bce(d, d_label, weight.view_as(d))
-
-    def w_forward(self,
-                  fs: torch.Tensor,
-                  gs: torch.Tensor,
-                  ft: torch.Tensor,
-                  gt: torch.Tensor,
-                  iter_num: int,
-                  ys: torch.Tensor,
-                  yt: torch.Tensor) -> torch.Tensor:
-        f = torch.cat((fs, ft), dim=0)
-        g = torch.cat((gs, gt), dim=0)
-        g = F.softmax(g, dim=1).detach()
-        h = self.grl(self.map(f, g), iter_num)
-        d = self.domain_discriminator(h)
-        d_label = torch.cat((
-            torch.ones((gs.size(0), 1)).to(gs.device),
-            torch.zeros((gt.size(0), 1)).to(gt.device),
-        ))
-        weight = 1.0 + torch.exp(-Entropy(g))
-        batch_size = f.size(0)
-        weight = weight / torch.sum(weight) * batch_size
-
-        y_set = torch.unique(ys)
-        da = torch.zeros(len(y_set))
-        k = 0
-        y = torch.cat((ys, yt), dim=0).view(-1)
-        l = (d > 0.5).long()
-        for label in y_set:
-            index = torch.nonzero(y.eq(label)).view(-1)
-            dak = torch.sum(torch.eq(l[index], d_label[index]))
-            da[k] = 2 * (1 - 2 * dak / len(index))
-            k += 1
-        daf = da.mean()
-
-        return self.bce(d, d_label, weight.view_as(d)), daf
