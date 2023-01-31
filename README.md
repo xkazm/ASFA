@@ -61,7 +61,9 @@ If you find this code useful for your research, please cite our papers
     author={Kun Xia and Lingfei Deng and Wlodzislaw Duch and Dongrui Wu},
     journal={IEEE Trans. on Biomedical Engineering},
     year={2022},
-    note={in press}
+    vol={69},
+    no={11},
+    pages={3365-3376}
 }
 ```
 
